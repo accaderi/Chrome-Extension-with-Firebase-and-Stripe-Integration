@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Stripe and firebase",
+  "version": "1.0",
+  "description": "Stripe and firebase",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "identity",
+    "identity.email"
+  ],
+  "host_permissions": [
+    "https://*.chromiumapp.org/*"
+  ],
+  "oauth2": {
+    "client_id": "YOUR CLIENT ID HERE FROM GOOGLE CLOUD CONSOLE",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [{
+    "resources": ["firebase/*.js", "firebase/*/*.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
