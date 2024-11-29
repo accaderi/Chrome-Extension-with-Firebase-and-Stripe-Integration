@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/yW8ACHrYetk?si=7l-KEDf6Gio-99xs">
-    <img src="https://img.youtube.com/vi/yW8ACHrYetk/0.jpg" alt="Youtube Video">
+  <a href="https://youtu.be/Rh7fmcpatn8">
+    <img src="https://img.youtube.com/vi/Rh7fmcpatn8/0.jpg" alt="Youtube Video">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/Ew9yWHxiJJs">Chrome Extension with Firebase and Stripe Integration</a>
+  <a href="https://youtu.be/Rh7fmcpatn8">Chrome Extension with Firebase and Stripe Integration</a>
 </p>
 
 A Chrome extension that implements Firebase authentication and Stripe payments, allowing users to make donations through a secure payment flow.

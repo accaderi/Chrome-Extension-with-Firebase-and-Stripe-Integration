@@ -173,7 +173,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                   container.innerHTML = `
                     <h2>Error</h2>
                     <p>${data.error.message || 'An error occurred'}</p>
-                    <button id="retryButton">Try Again</button>
                   `;
                   unsubscribe();
                 }
