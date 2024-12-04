@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/Rh7fmcpatn8">Chrome Extension with Firebase and Stripe Integration</a>
+  <a href="https://youtu.be/n09p8Y7XfNI">Chrome Extension with Firebase and Stripe Integration</a>
 </p>
 
 A Chrome extension that implements Firebase authentication and Stripe payments, allowing users to make donations through a secure payment flow.
